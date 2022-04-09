@@ -11,8 +11,16 @@ function PadreProps() {
   };
 
   const objetoPrueba2 = {
-    id: 0,
-    nombre: "Objeto de prueba 1",
+    id: 1,
+    nombre: "Objeto de prueba 2",
+    descripcion:
+      "Objeto de prueba instanciado solamente para hacer pruebas usando props en el componente.",
+    estado: true,
+  };
+
+  const objetoPrueba3 = {
+    id: 1,
+    nombre: "Objeto de prueba 3",
     descripcion:
       "Objeto de prueba instanciado solamente para hacer pruebas usando props en el componente.",
     estado: true,
@@ -41,8 +49,8 @@ function PadreProps() {
           <ConProps
             className=""
             texto="Hola"
-            objeto={objetoPrueba}
-            variante="btn btn-primary"
+            objeto={objetoPrueba3}
+            variante="btn btn-secondary"
           />
         </div>
       </div>
