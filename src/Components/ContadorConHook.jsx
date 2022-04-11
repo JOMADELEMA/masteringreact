@@ -4,7 +4,8 @@ import {Refresh, Plus, Minus } from "tabler-icons-react";
 
 function ContadorConHook() {
 
-    const [contador, incrementar, decrementar, resetear] = useCounter();
+    //const [contador, incrementar, decrementar, resetear] = useCounter(); este es sin definir valor inicial
+    const [contador, incrementar, decrementar, resetear] = useCounter(10);
 
 
   return (

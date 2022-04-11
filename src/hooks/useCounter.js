@@ -1,8 +1,9 @@
 import {useState} from 'react'
 
-const useCounter = () => {
+//const useCounter = () => { //definirlo sin valor inicial
+const useCounter = (valorInicial) => {
 
-    const [contador, setContador] = useState(0);
+    const [contador, setContador] = useState(valorInicial);
 
     const incrementar = () => {
         setContador(contador +1);
@@ -13,7 +14,7 @@ const useCounter = () => {
     }
     
     const resetear = () => {
-        setContador(0);
+        setContador(valorInicial);
     };
 
 

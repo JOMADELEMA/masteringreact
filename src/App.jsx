@@ -1,7 +1,8 @@
 import "./App.css";
-import Contador from "./Components/Contador";
-import ContadorConHook from "./Components/ContadorConHook";
-import PadreProps from "./Components/Props/PadreProps";
+// import Contador from "./Components/Contador";
+// import ContadorConHook from "./Components/ContadorConHook";
+// import PadreProps from "./Components/Props/PadreProps";
+import MouseApp from "./Components/MouseApp";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
 
       {/* <Contador /> */}
       {/* <PadreProps /> */}
-      <ContadorConHook />
+      {/* <ContadorConHook /> */}
+      <MouseApp />
     </>
   );
 }
