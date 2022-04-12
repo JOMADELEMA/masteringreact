@@ -4,7 +4,7 @@ import "./App.css";
 // import ContadorConHook from "./Components/ContadorConHook";
 // import PadreProps from "./Components/Props/PadreProps";
 // import MouseApp from "./Components/MouseApp";
-import FetchCard from "./Components/FetchCard";
+// import FetchCard from "./Components/FetchCard";
 
 function App() {
   return (
@@ -16,7 +16,9 @@ function App() {
       {/* <ContadorConHook /> */}
       {/* <MouseApp /> */}
       {/* <CicloDeVida /> */}
-      <FetchCard />
+      {/* // <FetchCard /> */}
+      
+      
     </>
   );
 }

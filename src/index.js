@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import crearRutas from './Routes/rutas';
+
+const rutas = crearRutas();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(  <App />);
+root.render(rutas,  <App />);
 
 //con react <18
 
