@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "../Pages/Index";
-import AboutUs from "../Pages/AboutUs";
-import ContactUs from "../Pages/ContactUs";
+import AboutMe from "../Pages/AboutMe";
+import Contacto from "../Pages/Contacto";
+import Proyectos from "../Pages/Proyectos";
 
 const crearRutas = () => {
   return (
@@ -10,8 +11,9 @@ const crearRutas = () => {
       <Router>
         <Routes>
           <Route exact path="/" element={<Index />} />
-          <Route exact path="/aboutus" element={<AboutUs />} />
-          <Route exact path="/contactus" element={<ContactUs />} />
+          <Route path="/aboutus" element={<AboutMe />} />
+          <Route path="/contactus" element={<Contacto />} />
+          <Route path="/proyectos" element={<Proyectos />} />
         </Routes>
       </Router>
     </>
