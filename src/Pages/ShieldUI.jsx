@@ -19,7 +19,7 @@ const ShieldUI = () => {
   };
 
   const iconTextStyle = {
-      
+      color: 'green',
   }
 
   console.log(backgroundStyle);
@@ -29,7 +29,7 @@ const ShieldUI = () => {
       <div>
         <h1>Shield UI</h1>
         <div className="container-fluid d-flex" style={backgroundStyle}>
-          <div style={iconStyle}> Hola </div>
+          <div style={iconStyle}> <span style={iconTextStyle}> Hola</span> </div>
         </div>
       </div>
     </>
