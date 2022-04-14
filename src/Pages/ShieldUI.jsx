@@ -12,18 +12,46 @@ import {
   Tournament,
   Settings,
 } from "tabler-icons-react";
+import img from '../Assets/fondoPokemon.png'
 
 const ShieldUI = () => {
   const backgroundStyle = {
+    // height: "800px",
+    // backgroundColor: "#d22",
+    // position: "relative",
+    background: `url(${img})`,
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100% 100%",
     height: "800px",
-    backgroundColor: "#d22",
   };
 
+
+//   const darkBackgroundStyle = {
+//     width: "150px",
+//     height: 0,
+//     borderLeft: "0px solid transparent",
+//     borderRight: "250px solid transparent",
+//     borderTop: "800px solid #900",
+//     position: "absolute",
+//   };
+
+//   const lightBackgroundStyle = {
+//     width: 0,
+//     height: 0,
+//     borderLeft: "0px solid transparent",
+//     borderRight: "140px solid transparent",
+//     borderTop: "450px solid #aaa",
+//     position: "absolute",
+//   };
+  
   const contenedorIconos = {
     display: "flex",
     flexWrap: "wrap",
     paddingTop: "25px",
     paddingBottom: "25px",
+    position: "relative",
+    zIndex: "10",
   };
 
   const optionStyle = {
@@ -49,6 +77,7 @@ const ShieldUI = () => {
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    boxShadow: "0px 1px 5px 0 #222",
   };
 
   const iconTextStyle = {
@@ -79,28 +108,29 @@ const ShieldUI = () => {
     fontWeight: "bolder",
   };
 
-  console.log(backgroundStyle);
   return (
     <>
-      {/* <div className="container bg-light mt-5" style={backgroundStyle} > */}
-      <div>
-        <div className="container-fluid" style={backgroundStyle}>
+      <div className="container-fluid" style={backgroundStyle}>
+        {/* <div style={backgroundStyle}> */}
+        <div>
+          {/* <div id="fondoOscuro" style={darkBackgroundStyle}></div>
+          <div id="fondoClaro" style={lightBackgroundStyle}></div> */}
           <div id="contenedorIconos" style={contenedorIconos}>
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Book size={150} strokeWidth={1} color="orange"/>
+                  <Book size={150} strokeWidth={1} color="orange" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Pokedex</span>
+                <p style={optionTextStyle}>Pokedex</p>
               </div>
             </div>
 
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Pokeball size={150} strokeWidth={1} color="red"/>
+                  <Pokeball size={150} strokeWidth={1} color="red" />
                 </span>
               </div>
               <div>
@@ -110,7 +140,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Briefcase size={150} strokeWidth={1} color="orange"/>{" "}
+                  <Briefcase size={150} strokeWidth={1} color="orange" />{" "}
                 </span>
               </div>
               <div>
@@ -120,7 +150,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Id size={150} strokeWidth={1} color="blue"/>{" "}
+                  <Id size={150} strokeWidth={1} color="blue" />{" "}
                 </span>
               </div>
               <div>
@@ -130,7 +160,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <DeviceFloppy size={150} strokeWidth={1} color="lightgreen"/>{" "}
+                  <DeviceFloppy size={150} strokeWidth={1} color="lightgreen" />{" "}
                 </span>
               </div>
               <div>
@@ -140,7 +170,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <MapPin size={150} strokeWidth={1} color="green"/>
+                  <MapPin size={150} strokeWidth={1} color="green" />
                 </span>
               </div>
               <div>
@@ -150,7 +180,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Tent size={150} strokeWidth={1} color="#ffbf00"/>
+                  <Tent size={150} strokeWidth={1} color="#ffbf00" />
                 </span>
               </div>
               <div>
@@ -160,7 +190,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Gift size={150} strokeWidth={1} color="purple"/>
+                  <Gift size={150} strokeWidth={1} color="purple" />
                 </span>
               </div>
               <div>
@@ -170,7 +200,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Tournament size={150} strokeWidth={1} color="darkgreen"/>
+                  <Tournament size={150} strokeWidth={1} color="darkgreen" />
                 </span>
               </div>
               <div>
@@ -180,7 +210,7 @@ const ShieldUI = () => {
             <div style={optionStyle}>
               <div style={iconStyle}>
                 <span style={iconTextStyle}>
-                  <Settings size={150} strokeWidth={1} color="darkblue"/>
+                  <Settings size={150} strokeWidth={1} color="darkblue" />
                 </span>
               </div>
               <div>
