@@ -31,6 +31,11 @@ const NavBar = () => {
                 </Link>
               </li> */}
               <li class="nav-item">
+                <Link to="/shieldui" className="nav-link">
+                  Shield UI
+                </Link>
+              </li>
+              <li class="nav-item">
                 <Link to="/aboutus" className="nav-link">
                   About Me
                 </Link>

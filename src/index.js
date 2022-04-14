@@ -7,7 +7,9 @@ import crearRutas from './Routes/rutas';
 const rutas = crearRutas();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(rutas,  <App />);
+// root.render(rutas,  <App />);
+root.render(<App />);
+root.render(rutas);
 
 //con react <18
 

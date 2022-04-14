@@ -4,6 +4,7 @@ import Index from "../Pages/Index";
 import AboutMe from "../Pages/AboutMe";
 import Contacto from "../Pages/Contacto";
 import Proyectos from "../Pages/Proyectos";
+import ShieldUI from "../Pages/ShieldUI";
 
 const crearRutas = () => {
   return (
@@ -14,6 +15,7 @@ const crearRutas = () => {
           <Route path="/aboutus" element={<AboutMe />} />
           <Route path="/contactus" element={<Contacto />} />
           <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/shieldui" element={<ShieldUI />} />
         </Routes>
       </Router>
     </>
