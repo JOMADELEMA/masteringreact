@@ -2,8 +2,16 @@
   background: url(../Assets/fondoPokemon.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 800px;
+  /* height: 800px; */
+  padding-bottom: 10px;
 }
+
+/* @media (max-width: 480px) {
+    .backgroundStyle {
+        /* background-image: url(images/background-mobile.jpg); */
+        /* background-repeat: repeat-y; */
+    /* }
+} */ 
 
 .contenedorIconos {
   display: flex;

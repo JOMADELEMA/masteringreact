@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import NavBar from "../Components/NavBar";
 
 const Index = () => {
@@ -14,7 +14,6 @@ const Index = () => {
           et, dignissimos dolor optio magnam enim error incidunt cupiditate.
           Dolore, iste quaerat?
         </p>
-
       </div>
     </>
   );
