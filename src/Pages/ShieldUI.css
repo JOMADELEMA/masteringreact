@@ -1,0 +1,74 @@
+.backgroundStyle {
+  background: url(../Assets/fondoPokemon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 800px;
+}
+
+.contenedorIconos {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  z-index: 10;
+}
+
+.optionStyle {
+  display: flex;
+  flex: 1 0 18%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px 10px 25px 10px;
+}
+
+.optionTextStyle {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.iconStyle {
+  background: white;
+  height: 175px;
+  width: 175px;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px 0 #222;
+}
+
+.iconStyle:hover {
+  background: #444;
+}
+
+.iconTextStyle {
+  color: green;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.contenedorDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionStyle {
+  width: 500px;
+  height: 100px;
+  background-color: #444;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionTextStyle {
+  color: #ddd;
+  font-weight: bolder;
+}

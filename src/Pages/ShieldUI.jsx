@@ -1,5 +1,4 @@
-import { getByPlaceholderText } from "@testing-library/react";
-import React from "react";
+import React, { useState } from "react";
 import {
   Book,
   Pokeball,
@@ -12,217 +11,226 @@ import {
   Tournament,
   Settings,
 } from "tabler-icons-react";
-import img from '../Assets/fondoPokemon.png'
+import "./ShieldUI.css";
 
 const ShieldUI = () => {
-  const backgroundStyle = {
-    // height: "800px",
-    // backgroundColor: "#d22",
-    // position: "relative",
-    background: `url(${img})`,
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "100% 100%",
-    height: "800px",
+  const [descripcion, setDescripcion] = useState(
+    "Continue your Gym Challenge!"
+  );
+
+  const hoverIcono = (iconoID) => {
+    switch (iconoID) {
+      case "pokedex":
+        setDescripcion("Enciclopedia Pokemon.");
+        break;
+      case "pokemon":
+        setDescripcion("Gestiona tu equipo Pokemon.");
+        break;
+      case "bag":
+        setDescripcion("Gestiona tu inventario.");
+        break;
+      case "league-card":
+        setDescripcion("Ve tu información de entrenador.");
+        break;
+      case "save":
+        setDescripcion("Guarda tu progreso.");
+        break;
+      case "town-map":
+        setDescripcion("Mapa de la region.");
+        break;
+      case "pokemon-camp":
+        setDescripcion("Diviertete con tus Pokemon.");
+        break;
+      case "mystery-gift":
+        setDescripcion("Recibe sorpresas.");
+        break;
+      case "vs":
+        setDescripcion("Busca oponentes para combatir.");
+        break;
+      case "options":
+        setDescripcion("Configuracion del juego.");
+        break;
+      default:
+        setDescripcion("Continue your Gym Challenge!");
+        break;
+    }
   };
 
-
-//   const darkBackgroundStyle = {
-//     width: "150px",
-//     height: 0,
-//     borderLeft: "0px solid transparent",
-//     borderRight: "250px solid transparent",
-//     borderTop: "800px solid #900",
-//     position: "absolute",
-//   };
-
-//   const lightBackgroundStyle = {
-//     width: 0,
-//     height: 0,
-//     borderLeft: "0px solid transparent",
-//     borderRight: "140px solid transparent",
-//     borderTop: "450px solid #aaa",
-//     position: "absolute",
-//   };
-  
-  const contenedorIconos = {
-    display: "flex",
-    flexWrap: "wrap",
-    paddingTop: "25px",
-    paddingBottom: "25px",
-    position: "relative",
-    zIndex: "10",
-  };
-
-  const optionStyle = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    margin: "25px 10px 25px 10px",
-  };
-
-  const optionTextStyle = {
-    color: "#fff",
-    fontWeight: "bolder",
-    fontSize: "25px",
-  };
-
-  const iconStyle = {
-    backgroundColor: "white",
-    height: "175px",
-    width: "175px",
-    borderRadius: "100%",
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    boxShadow: "0px 1px 5px 0 #222",
-  };
-
-  const iconTextStyle = {
-    color: "green",
-    fontWeight: "bold",
-    fontSize: "35px",
-  };
-
-  const contenedorDescription = {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
-  const descriptionStyle = {
-    width: "500px",
-    height: "100px",
-    backgroundColor: "#444",
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-  };
-
-  const descriptionTextStyle = {
-    color: "#ddd",
-    fontWeight: "bolder",
+  const desHoverIcono = () => {
+    setDescripcion("Continue your Gym Challenge!");
   };
 
   return (
     <>
-      <div className="container-fluid" style={backgroundStyle}>
+      <div className="container-fluid backgroundStyle">
         {/* <div style={backgroundStyle}> */}
         <div>
-          {/* <div id="fondoOscuro" style={darkBackgroundStyle}></div>
-          <div id="fondoClaro" style={lightBackgroundStyle}></div> */}
-          <div id="contenedorIconos" style={contenedorIconos}>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+          <div id="contenedorIconos" className="contenedorIconos">
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("pokedex");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Book size={150} strokeWidth={1} color="orange" />
                 </span>
               </div>
               <div>
-                <p style={optionTextStyle}>Pokedex</p>
+                <p className="optionTextStyle">Pokedex</p>
               </div>
             </div>
 
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("pokemon");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Pokeball size={150} strokeWidth={1} color="red" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Pokemon</span>
+                <span className="optionTextStyle">Pokemon</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("bag");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Briefcase size={150} strokeWidth={1} color="orange" />{" "}
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Bag</span>
+                <span className="optionTextStyle">Bag</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("league-card");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Id size={150} strokeWidth={1} color="blue" />{" "}
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>League Card</span>
+                <span className="optionTextStyle">League Card</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("save");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <DeviceFloppy size={150} strokeWidth={1} color="lightgreen" />{" "}
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Save</span>
+                <span className="optionTextStyle">Save</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("town-map");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <MapPin size={150} strokeWidth={1} color="green" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Town Map</span>
+                <span className="optionTextStyle">Town Map</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("pokemon-camp");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Tent size={150} strokeWidth={1} color="#ffbf00" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Pokemon Camp</span>
+                <span className="optionTextStyle">Pokemon Camp</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("mystery-gift");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Gift size={150} strokeWidth={1} color="purple" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Mystery Gift</span>
+                <span className="optionTextStyle">Mystery Gift</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("vs");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Tournament size={150} strokeWidth={1} color="darkgreen" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>VS</span>
+                <span className="optionTextStyle">VS</span>
               </div>
             </div>
-            <div style={optionStyle}>
-              <div style={iconStyle}>
-                <span style={iconTextStyle}>
+            <div
+              className="optionStyle"
+              onMouseEnter={() => {
+                hoverIcono("options");
+              }}
+              onMouseLeave={() => desHoverIcono()}
+            >
+              <div className="iconStyle">
+                <span className="iconTextStyle">
                   <Settings size={150} strokeWidth={1} color="darkblue" />
                 </span>
               </div>
               <div>
-                <span style={optionTextStyle}>Options</span>
+                <span className="optionTextStyle">Options</span>
               </div>
             </div>
           </div>
-          <div id="contenedorDescripcion" style={contenedorDescription}>
-            <div style={descriptionStyle}>
-              <span style={descriptionTextStyle}>
-                Continue your gym challenge!
-              </span>
+          <div id="contenedorDescripcion" className="contenedorDescription">
+            <div className="descriptionStyle">
+              <span className="descriptionTextStyle">{descripcion}</span>
             </div>
           </div>
         </div>
