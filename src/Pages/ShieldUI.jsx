@@ -10,9 +10,9 @@ import {
   Gift,
   Tournament,
   Settings,
+  ChevronLeft,
 } from "tabler-icons-react";
 import "./ShieldUI.css";
-import { Link } from "react-router-dom";
 
 const ShieldUI = () => {
   const [descripcion, setDescripcion] = useState(
@@ -67,9 +67,13 @@ const ShieldUI = () => {
         {/* <div style={backgroundStyle}> */}
         <div id="contenedorMenu">
           <div id="contenedorIconos" className="contenedorIconos">
-            <a href="#pokedex" style={{ textDecoration: "none" }}>
+            <a
+              href="#pokedex"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("pokedex");
                 }}
@@ -86,9 +90,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#pokemon" style={{ textDecoration: "none" }}>
+            <a
+              href="#pokemon"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("pokemon");
                 }}
@@ -105,9 +113,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#bag" style={{ textDecoration: "none" }}>
+            <a
+              href="#bag"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("bag");
                 }}
@@ -124,9 +136,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#league-card" style={{ textDecoration: "none" }}>
+            <a
+              href="#league-card"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("league-card");
                 }}
@@ -143,9 +159,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#save" style={{ textDecoration: "none" }}>
+            <a
+              href="#save"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("save");
                 }}
@@ -166,9 +186,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#town-map" style={{ textDecoration: "none" }}>
+            <a
+              href="#town-map"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("town-map");
                 }}
@@ -185,9 +209,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#pokemon-camp" style={{ textDecoration: "none" }}>
+            <a
+              href="#pokemon-camp"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("pokemon-camp");
                 }}
@@ -204,9 +232,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#mystery-gift" style={{ textDecoration: "none" }}>
+            <a
+              href="#mystery-gift"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("mystery-gift");
                 }}
@@ -223,9 +255,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#vs" style={{ textDecoration: "none" }}>
+            <a
+              href="#vs"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("vs");
                 }}
@@ -242,9 +278,13 @@ const ShieldUI = () => {
               </div>
             </a>
 
-            <a href="#options" style={{ textDecoration: "none" }}>
+            <a
+              href="#options"
+              style={{ textDecoration: "none" }}
+              className="optionStyle"
+            >
               <div
-                className="optionStyle"
+                // className="optionStyle"
                 onMouseEnter={() => {
                   hoverIcono("options");
                 }}
@@ -270,49 +310,148 @@ const ShieldUI = () => {
       </div>
 
       <div className="container-fluid backgroundPokedexStyle">
-        <h1 className="" id="pokedex">
-          Pokedex
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="pokedex">
+            Pokedex
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundPokemonStyle">
-        <h1 className="" id="pokemon">
-          Pokemon
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="pokemon">
+            Pokemon
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundBagStyle">
-        <h1 className="" id="bag">
-          Bag
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="bag">
+            Bag
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundLeagueCardStyle">
-        <h1 className="" id="league-card">
-          League Card
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="league-card">
+            League Card
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundSaveStyle">
-        <h1 className="" id="save">
-          Save
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="save">
+            Save
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundTownMapStyle">
-        <h1 className="" id="town-map">
-          Town Map
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="town-map">
+            Town Map
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundMysteryGiftStyle">
-        <h1 className="" id="mystery-gift">
-          Mystery Gift
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="mystery-gift">
+            Mystery Gift
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundVSStyle">
-        <h1 className="" id="vs">
-          VS
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="vs">
+            VS
+          </h1>
+        </a>
       </div>
       <div className="container-fluid backgroundOptionsStyle">
-        <h1 className="" id="options">
-          Options
-        </h1>
+        <a
+          href="#contenedorMenu"
+          style={{
+            textDecoration: "none",
+            display: "flex",
+            alignItems: "center",
+            color: "black",
+          }}
+        >
+          <ChevronLeft size={35} />
+          <h1 className="" id="options">
+            Options
+          </h1>
+        </a>
       </div>
     </>
   );
