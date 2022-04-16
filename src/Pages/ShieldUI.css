@@ -2,7 +2,77 @@
   background: url(../Assets/fondoPokemon.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* height: 800px; */
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundPokedexStyle {
+  background: url(../Assets/Pokedex.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundPokemonStyle {
+  background: url(../Assets/Pokemon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundBagStyle {
+  background: url(../Assets/Bag.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundLeagueCardStyle {
+  background: url(../Assets/League_Card.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundSaveStyle {
+  background: url(../Assets/Save.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundTownMapStyle {
+  background: url(../Assets/Town_Map.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundPokemonCampStyle {
+  background: url(../Assets/fondoPokemon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundMysteryGiftStyle {
+  background: url(../Assets/Mystery_Gift.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundVSStyle {
+  background: url(../Assets/VS.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
+  padding-bottom: 10px;
+}
+.backgroundOptionsStyle {
+  background: url(../Assets/Options.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 750px;
   padding-bottom: 10px;
 }
 
