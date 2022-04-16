@@ -26,7 +26,7 @@
   height: 780px;
   padding-bottom: 10px;
 }
-.backgroundLeagueCardStyle {
+.backgroundLeague-CardStyle {
   background: url(../Assets/League_Card.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -40,21 +40,21 @@
   height: 780px;
   padding-bottom: 10px;
 }
-.backgroundTownMapStyle {
+.backgroundTown-MapStyle {
   background: url(../Assets/Town_Map.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 780px;
   padding-bottom: 10px;
 }
-.backgroundPokemonCampStyle {
+.backgroundPokemon-CampStyle {
   background: url(../Assets/fondoPokemon.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 780px;
   padding-bottom: 10px;
 }
-.backgroundMysteryGiftStyle {
+.backgroundMystery-GiftStyle {
   background: url(../Assets/Mystery_Gift.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
