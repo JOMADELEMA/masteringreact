@@ -2,7 +2,9 @@ import React from 'react'
 
 const Icono = () => {
   return (
-    <div>Icono</div>
+    <div>
+        
+    </div>
   )
 }
 

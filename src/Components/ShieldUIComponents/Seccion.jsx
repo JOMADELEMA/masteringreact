@@ -1,9 +1,10 @@
 import React from "react";
 import { ChevronLeft } from "tabler-icons-react";
+import ContenidoSeccion from "./ContenidoSeccion";
 
 const Seccion = (props) => {
   const { nombre } = props;
-  const nombreClase =  `container-fluid background${nombre}Style`
+  const nombreClase = `container-fluid background${nombre}Style`;
 
   return (
     <div className={nombreClase}>
@@ -21,6 +22,8 @@ const Seccion = (props) => {
           {nombre}
         </h1>
       </a>
+
+        <ContenidoSeccion />
     </div>
   );
 };
