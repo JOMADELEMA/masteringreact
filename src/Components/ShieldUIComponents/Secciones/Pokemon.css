@@ -1,0 +1,61 @@
+.contenedorSeccionPokemon {
+    padding: 15px;
+    width: 95vmax;
+    display: flex;
+}
+
+.contenedorListadoPokemon {
+    width: 50%;
+}
+
+.contenedorSpritePokemon {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 75px;
+}
+
+.contenedorSpritePokemon img {
+    height: 350px;
+    width: 100%;
+}
+
+
+.pkmn {
+    background-color: white;
+    border-radius: 35px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 10px 0;
+}
+
+.pkmn:hover {
+  background-color: #222;
+  color: white;
+}
+
+.pkmnInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  font-weight: bold;
+}
+
+.barraHP {
+  width: 200px;
+  height: 7px;
+  background-color: rgb(41, 189, 41);
+}
+
+.pkmnStats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pkmnNameGender {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}

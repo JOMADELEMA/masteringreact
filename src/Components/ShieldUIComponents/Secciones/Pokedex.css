@@ -1,7 +1,6 @@
 .contenidoSeccionPokedex {
   height: 650px;
   width: 96vmax;
-  /* border-radius: 10px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
