@@ -17,42 +17,24 @@ const ContenedorIconos = () => {
     "Continue your Gym Challenge!"
   );
 
+
+//se utiliza esta forma para evitar utilizar switch.
+  const texto = {
+    pokedex: "Enciclopedia pokemon.", 
+    pokemon: "Gestiona tu equipo pokemon.",
+    bag: "Gestiona tu inventario.",
+    league_card: "Ve tu información de entrenador.",
+    save: "Guarda tu progreso.",
+    town_map: "Mapa de la region.", 
+    pokemon_camp: "Diviertete con tus pokemon.",
+    mystery_gift: "Recibe Sorptresas.",
+    vs: "Busca oponentes para combatir.",
+    options: "Configuraciones del juego.",
+
+  }
+
   const hoverIcono = (iconoID) => {
-    switch (iconoID) {
-      case "pokedex":
-        setDescripcion("Enciclopedia Pokemon.");
-        break;
-      case "pokemon":
-        setDescripcion("Gestiona tu equipo Pokemon.");
-        break;
-      case "bag":
-        setDescripcion("Gestiona tu inventario.");
-        break;
-      case "league-card":
-        setDescripcion("Ve tu información de entrenador.");
-        break;
-      case "save":
-        setDescripcion("Guarda tu progreso.");
-        break;
-      case "town-map":
-        setDescripcion("Mapa de la region.");
-        break;
-      case "pokemon-camp":
-        setDescripcion("Diviertete con tus Pokemon.");
-        break;
-      case "mystery-gift":
-        setDescripcion("Recibe sorpresas.");
-        break;
-      case "vs":
-        setDescripcion("Busca oponentes para combatir.");
-        break;
-      case "options":
-        setDescripcion("Configuracion del juego.");
-        break;
-      default:
-        setDescripcion("Continue your Gym Challenge!");
-        break;
-    }
+    setDescripcion(texto[iconoID])
   };
 
   const desHoverIcono = () => {
@@ -129,13 +111,13 @@ const ContenedorIconos = () => {
         </a>
 
         <a
-          href="#league-card"
+          href="#league_card"
           style={{ textDecoration: "none" }}
           className="optionStyle"
         >
           <div
             onMouseEnter={() => {
-              hoverIcono("league-card");
+              hoverIcono("league_card");
             }}
             onMouseLeave={() => desHoverIcono()}
           >
@@ -179,7 +161,7 @@ const ContenedorIconos = () => {
         >
           <div
             onMouseEnter={() => {
-              hoverIcono("town-map");
+              hoverIcono("town_map");
             }}
             onMouseLeave={() => desHoverIcono()}
           >
@@ -201,7 +183,7 @@ const ContenedorIconos = () => {
         >
           <div
             onMouseEnter={() => {
-              hoverIcono("pokemon-camp");
+              hoverIcono("pokemon_camp");
             }}
             onMouseLeave={() => desHoverIcono()}
           >
@@ -223,7 +205,7 @@ const ContenedorIconos = () => {
         >
           <div
             onMouseEnter={() => {
-              hoverIcono("mystery-gift");
+              hoverIcono("mystery_gift");
             }}
             onMouseLeave={() => desHoverIcono()}
           >

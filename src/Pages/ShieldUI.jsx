@@ -15,11 +15,11 @@ const ShieldUI = () => {
       <Seccion nombre="Pokedex" />
       <Seccion nombre="Pokemon" />
       <Seccion nombre="Bag" />
-      <Seccion nombre="League-Card" />
+      <Seccion nombre="League_Card" />
       <Seccion nombre="Save" />
-      <Seccion nombre="Town-Map" />
-      <Seccion nombre="Pokemon-Camp" />
-      <Seccion nombre="Mystery-Gift" />
+      <Seccion nombre="Town_Map" />
+      <Seccion nombre="Pokemon_Camp" />
+      <Seccion nombre="Mystery_Gift" />
       <Seccion nombre="VS" />
       <Seccion nombre="Options" />
     </>

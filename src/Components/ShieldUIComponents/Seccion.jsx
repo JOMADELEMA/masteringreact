@@ -19,11 +19,11 @@ const Seccion = (props) => {
       >
         <ChevronLeft size={35} />
         <h1 className="" id={nombre.toLowerCase()}>
-          {nombre}
+          {nombre.replaceAll('_', ' ')}
         </h1>
       </a>
 
-        <ContenidoSeccion />
+        <ContenidoSeccion nombreSeccion={nombre.toLowerCase()}/>
     </div>
   );
 };
