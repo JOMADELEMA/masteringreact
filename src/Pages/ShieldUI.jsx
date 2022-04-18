@@ -7,20 +7,29 @@ const ShieldUI = () => {
   return (
     <>
       <div className="container-fluid backgroundStyle">
-        <div id="contenedorMenu">
+        <div id="contenedorMenu" className="contenedorMenu">
           <ContenedorIconos />
         </div>
       </div>
 
       <Seccion nombre="Pokedex" />
+
       <Seccion nombre="Pokemon" />
+
       <Seccion nombre="Bag" />
+
       <Seccion nombre="League_Card" />
+
       <Seccion nombre="Save" />
+
       <Seccion nombre="Town_Map" />
+
       <Seccion nombre="Pokemon_Camp" />
+
       <Seccion nombre="Mystery_Gift" />
+
       <Seccion nombre="VS" />
+
       <Seccion nombre="Options" />
     </>
   );

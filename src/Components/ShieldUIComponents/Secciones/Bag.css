@@ -11,15 +11,18 @@
 }
 
 .contenedorListadoPokemonBag {
-  width: 50%;
+  flex: 1 1 50%;
   margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .contenedorBag {
-  width: 50%;
   display: flex;
+  flex: 1 1 50%;
   flex-direction: column;
   align-items: center;
+  max-width: 450px;
+  min-width: 400px;
 }
 
 .bagCategories {

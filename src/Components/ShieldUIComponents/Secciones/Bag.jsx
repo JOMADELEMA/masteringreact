@@ -23,6 +23,8 @@ import {
 } from "tabler-icons-react";
 
 import hyperPotion from "../../../Assets/itemIcons/hyper-potion.png";
+import maxPotion from "../../../Assets/itemIcons/max-potion.png";
+import cheriBerry from "../../../Assets/itemIcons/cheri.png";
 
 const Bag = () => {
   const bagItem = {
@@ -30,6 +32,21 @@ const Bag = () => {
     name: "Hyper potion",
     quantity: 25,
     description: "Restores 150 HP. ",
+    category: "medicine",
+  };
+  const bagItem2 = {
+    icon: maxPotion,
+    name: "Max potion",
+    quantity: 12,
+    description: "Restores all HP. ",
+    category: "medicine",
+  };
+  const bagItem3 = {
+    icon: cheriBerry,
+    name: "Cheri Berry",
+    quantity: 43,
+    description: "Cures Paralisis. ",
+    category: "berry",
   };
 
   return (
@@ -180,19 +197,19 @@ const Bag = () => {
               </div>
               <div className="item">
                 <div className="itemIcon">
-                  <img src={bagItem.icon} alt="" />
+                  <img src={bagItem2.icon} alt="" />
                 </div>
-                <div className="itemName">{bagItem.name}</div>
+                <div className="itemName">{bagItem2.name}</div>
 
-                <div className="itemQuantity">X {bagItem.quantity}</div>
+                <div className="itemQuantity">X {bagItem2.quantity}</div>
               </div>
               <div className="item">
                 <div className="itemIcon">
-                  <img src={bagItem.icon} alt="" />
+                  <img src={bagItem3.icon} alt="" />
                 </div>
-                <div className="itemName">{bagItem.name}</div>
+                <div className="itemName">{bagItem3.name}</div>
 
-                <div className="itemQuantity">X {bagItem.quantity}</div>
+                <div className="itemQuantity">X {bagItem3.quantity}</div>
               </div>
               <div className="item">
                 <div className="itemIcon">
@@ -277,8 +294,8 @@ const Bag = () => {
             </div>
           </div>
           <div className="bagItemDescriptionContainer">
-            <div className="bagItemDescriptionName">{bagItem.name}</div>
-            <div className="bagItemDescriptionText">{bagItem.description}</div>
+            <div className="bagItemDescriptionName">{bagItem3.name}</div>
+            <div className="bagItemDescriptionText">{bagItem3.description}</div>
           </div>
         </div>
       </div>

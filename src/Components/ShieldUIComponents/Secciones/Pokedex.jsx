@@ -3,7 +3,7 @@ import hoothootIcon from "../../../Assets/pkmnIcons/hoothoot.png";
 import grubbinIcon from "../../../Assets/pkmnIcons/grubbin.png";
 import metapodIcon from "../../../Assets/pkmnIcons/metapod.png";
 import skorupiIcon from "../../../Assets/pkmnIcons/skorupi.png";
-import { Crown } from "tabler-icons-react";
+import { Crown, Pokeball } from "tabler-icons-react";
 import "./Pokedex.css";
 
 const Pokedex = () => {
@@ -17,7 +17,7 @@ const Pokedex = () => {
     icon: grubbinIcon,
     number: "016",
     name: "Grubbin",
-    dexStatus: true,
+    dexStatus: false,
   };
   const pkmn3 = {
     icon: metapodIcon,
@@ -96,7 +96,7 @@ const Pokedex = () => {
             <div className="pkmnNumber">No. {pkmn1.number}</div>
             <div className="pkmnName">{pkmn1.name}</div>
             <div className="pkmnDexStatus">
-              {pkmn1.dexStatus ? "Caugth" : "notCaugth"}
+              {pkmn1.dexStatus ? <Pokeball color="black"/> : <Pokeball color="black" strokeWidth={0.5} color="gray"/>}
             </div>
           </div>
 
@@ -107,7 +107,7 @@ const Pokedex = () => {
             <div className="pkmnNumber">No. {pkmn2.number}</div>
             <div className="pkmnName">{pkmn2.name}</div>
             <div className="pkmnDexStatus">
-              {pkmn1.dexStatus ? "Caugth" : "notCaugth"}
+              {pkmn2.dexStatus ? <Pokeball color="black"/> : <Pokeball color="black" strokeWidth={0.5} color="gray"/>}
             </div>
           </div>
 
@@ -118,7 +118,7 @@ const Pokedex = () => {
             <div className="pkmnNumber">No. {pkmn3.number}</div>
             <div className="pkmnName">{pkmn3.name}</div>
             <div className="pkmnDexStatus">
-              {pkmn1.dexStatus ? "Caugth" : "notCaugth"}
+              {pkmn3.dexStatus ? <Pokeball color="black"/> : <Pokeball color="black" strokeWidth={0.5} color="gray"/>}
             </div>
           </div>
 
@@ -129,7 +129,7 @@ const Pokedex = () => {
             <div className="pkmnNumber">No. {pkmn4.number}</div>
             <div className="pkmnName">{pkmn4.name}</div>
             <div className="pkmnDexStatus">
-              {pkmn1.dexStatus ? "Caugth" : "notCaugth"}
+              {pkmn4.dexStatus ? <Pokeball color="black"/> : <Pokeball color="black" strokeWidth={0.5} color="gray"/>}
             </div>
           </div>
         </div>

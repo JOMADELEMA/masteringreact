@@ -34,7 +34,7 @@ const ContenidoSeccion = (props) => {
       <div
         className="contenidoSeccion"
       >
-        <div>{seccion[nombreSeccion]}</div>
+        {seccion[nombreSeccion]}
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 .contenidoSeccionPokedex {
-  height: 650px;
-  width: 96vmax;
+  width: 100%;
   display: flex;
+  border: solid black;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
@@ -10,7 +10,9 @@
 .dex {
   background-color: white;
   border-radius: 30px;
-  width: 400px;
+  width: 40%;
+  min-width: 300px;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   padding: 3px;
@@ -42,13 +44,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 150px;
+  width: 40%;
   background-color: lightgray;
   border-radius: 10px;
 }
 
 .dexRecomendations {
-  width: 500px;
+  width: 75%;
+  max-width: 450px;
   margin-top: 10px;
 }
 

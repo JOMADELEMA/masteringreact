@@ -15,6 +15,7 @@ const Seccion = (props) => {
           display: "flex",
           alignItems: "center",
           color: "black",
+          
         }}
       >
         <ChevronLeft size={35} />
