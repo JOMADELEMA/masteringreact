@@ -23,14 +23,14 @@
   background: url(../Assets/Bag.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* height: 780px; */
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundLeague_CardStyle {
   background: url(../Assets/League_Card.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundSaveStyle {
