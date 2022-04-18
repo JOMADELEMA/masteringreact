@@ -20,8 +20,11 @@
 }
 
 .contenedorSpritePokemon img {
-    height: 75%;
-    width: 75%;
+    height: 100%;
+    width: 100%;
+    max-width: 349px;
+    max-height: 350px;
+    min-height: 349px;
 }
 
 
