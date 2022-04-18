@@ -1,0 +1,102 @@
+
+::-webkit-scrollbar {
+    background-color: rgb(121, 73, 2);
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(243, 234, 214);
+    width: 10px;
+    height: 25px;
+}
+
+.contenedorListadoPokemonBag {
+  width: 50%;
+  margin-top: 35px;
+}
+
+.contenedorBag {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bagCategories {
+}
+
+.bagCategoryIcon {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.bagCategoryIcon:hover {
+  color: black;
+}
+
+.bagCategory {
+  background-color: rgb(209, 149, 38);
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bagItems {
+  width: 100%;
+  height: 50%;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+.itemList {
+  width: 95%;
+  text-align: center;
+  height: 100%;
+
+}
+
+.item {
+  border-radius: 25px;
+  padding-left: 25px;
+  padding-right: 10px;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  align-items: center;
+}
+
+.item:hover {
+  background-color: black;
+  background: linear-gradient(
+    115deg,
+    #45484d 75%,
+    #ff7207 75%,
+    #ff7207 75%
+  ); /* Chrome10-25,Safari5.1-6 */
+
+  color: white;
+}
+
+.itemName {
+  width: 80%;
+  text-align: start;
+}
+
+.bagItemDescriptionContainer {
+    width: 100%;
+}
+
+.bagItemDescriptionName {
+    background-color: rgb(209, 149, 38);
+    color: white;
+    font-weight:600;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.bagItemDescriptionText {
+    padding-left: 25px;
+}
