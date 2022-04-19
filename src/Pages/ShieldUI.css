@@ -44,35 +44,35 @@
   background: url(../Assets/Town_Map.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundPokemon_CampStyle {
   background: url(../Assets/fondoPokemon.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundMystery_GiftStyle {
   background: url(../Assets/Mystery_Gift.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundVSStyle {
   background: url(../Assets/VS.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+  min-height: 780px;
   padding-bottom: 10px;
 }
 .backgroundOptionsStyle {
   background: url(../Assets/Options.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 780px;
+ min-height: 780px;
   padding-bottom: 10px;
 }
 

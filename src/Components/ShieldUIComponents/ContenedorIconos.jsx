@@ -155,7 +155,7 @@ const ContenedorIconos = () => {
         </a>
 
         <a
-          href="#town-map"
+          href="#town_map"
           style={{ textDecoration: "none" }}
           className="optionStyle"
         >
@@ -177,7 +177,7 @@ const ContenedorIconos = () => {
         </a>
 
         <a
-          href="#pokemon-camp"
+          href="#pokemon_camp"
           style={{ textDecoration: "none" }}
           className="optionStyle"
         >
@@ -199,7 +199,7 @@ const ContenedorIconos = () => {
         </a>
 
         <a
-          href="#mystery-gift"
+          href="#mystery_gift"
           style={{ textDecoration: "none" }}
           className="optionStyle"
         >
