@@ -51,7 +51,7 @@ const Bag = () => {
 
   return (
     <>
-      <div className="contenedorSeccionPokemon">
+      <div className="contenedorPokemonBag">
         <div className="contenedorListadoPokemonBag">
           <div className="pkmn">
             <div className="pkmnIcono">
