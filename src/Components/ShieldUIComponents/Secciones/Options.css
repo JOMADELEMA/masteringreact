@@ -1,0 +1,82 @@
+.contenedorOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 600px;
+}
+
+.contenedorSeleccionOpciones {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+
+.contenedorSeleccionOpciones::-webkit-scrollbar-track {
+    background: rgb(63, 0, 99);
+}
+
+.contenedorSeleccionOpciones::-webkit-scrollbar-thumb {
+    background: rgb(131, 100, 189);
+}
+
+.contenedorOpcion {
+    display: flex;
+    /* background: rgb(106, 81, 247); */
+    margin: 10px;
+    border-radius:  35px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.contenedorOpcion:hover {
+    background: linear-gradient(110deg, rgb(106, 81, 247) 40%, #000000 40%);
+    color: white !important;
+}
+
+.contenedorOptionName {
+    width: 40%;
+}
+
+.contenedorOpcionSeleccion {
+    width: 60%;
+    color: darkgray;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorOpcionSeleccion .opcionSeleccionada{
+    color: black;
+    font-weight: bold;
+}
+
+.contenedorDescripcionOpciones {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-weight: bold;
+}
+
+.opcionSeleccionRango {
+    background: rgb(131, 100, 189);
+    width: 90%;
+    appearance: none;
+    height: 10px;
+    outline: none;
+    align-self: center;
+}
+
+.opcionSeleccionRango::-webkit-slider-thumb{
+    appearance: none;
+    width: 10px;
+    height: 25px;
+    background: rgb(63, 0, 99);
+}

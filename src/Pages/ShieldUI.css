@@ -76,14 +76,6 @@
   padding-bottom: 10px;
 }
 
-/* @media (max-width: 480px) {
-    .backgroundStyle {
-        /* background-image: url(images/background-mobile.jpg); */
-        /* background-repeat: repeat-y; */
-    /* }
-} */ 
-
-
 .contenedorIconos {
   display: flex;
   flex-wrap: wrap;
