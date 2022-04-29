@@ -1,5 +1,6 @@
 import React from "react";
-import './PortfolioMenu.css';
+import "./PortfolioMenu.css";
+import { Link } from "react-router-dom";
 
 const PortfolioMenu = () => {
   return (
@@ -8,23 +9,15 @@ const PortfolioMenu = () => {
 
       <div className="contenedorGrid">
         <div className="contenedorHijoGrid">
-            Pokemon UI
+          <Link to="/shieldui" className="nav-link">
+            Shield UI
+          </Link>
         </div>
-        <div className="contenedorHijoGrid">
-            Test UI 2
-        </div>
-        <div className="contenedorHijoGrid">
-            Test UI 3
-        </div>
-        <div className="contenedorHijoGrid">
-            Test UI 4
-        </div>
-        <div className="contenedorHijoGrid">
-            Test UI 5
-        </div>
-        <div className="contenedorHijoGrid">
-            Test UI 6
-        </div>
+        <div className="contenedorHijoGrid">Test UI 2</div>
+        <div className="contenedorHijoGrid">Test UI 3</div>
+        <div className="contenedorHijoGrid">Test UI 4</div>
+        <div className="contenedorHijoGrid">Test UI 5</div>
+        <div className="contenedorHijoGrid">Test UI 6</div>
       </div>
     </>
   );
