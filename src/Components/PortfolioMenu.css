@@ -1,0 +1,18 @@
+.contenedorGrid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border: solid black;
+}
+
+.contenedorHijoGrid {
+    border: solid white;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

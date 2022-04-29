@@ -7,10 +7,8 @@ const Index = () => {
   return (
     <>
       <NavBar />
-      <div className="container-fluid bg-secondary rounded mt-5">
-        
-  <PortfolioMenu />       
-
+      <div className="container-fluid bg-secondary rounded mt-5 p-5">
+        <PortfolioMenu />
       </div>
     </>
   );
