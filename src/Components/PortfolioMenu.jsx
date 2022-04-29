@@ -9,7 +9,7 @@ const PortfolioMenu = () => {
 
       <div className="contenedorGrid">
         <div className="contenedorHijoGrid">
-          <Link to="/shieldui" className="nav-link">
+          <Link to="/shieldui" className="cardLink">
             Shield UI
           </Link>
         </div>
