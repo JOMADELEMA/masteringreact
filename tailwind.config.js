@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'fondo-semuc': "url('../public/images/bg-Semuc.jpg')",
+      }
+    },
   },
   plugins: [],
 }
