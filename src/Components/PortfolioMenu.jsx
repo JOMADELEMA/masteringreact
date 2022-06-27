@@ -8,12 +8,16 @@ const PortfolioMenu = () => {
       <h1> PortfolioMenu </h1>
 
       <div className="contenedorGrid">
-        <div className="contenedorHijoGrid">
-          <Link to="/shieldui" className="cardLink">
-            Shield UI
-          </Link>
-        </div>
-        <div className="contenedorHijoGrid">Test UI 2</div>
+        <Link to="/shieldui" className="cardLink shield">
+          <div className="contenedorHijoGrid shield">
+            {/* Shield UI */}
+          </div>
+        </Link>
+        <Link to="/photography1" className="cardLink photos">
+          <div className="contenedorHijoGrid">
+            Photograhy 1
+          </div>
+        </Link>
         <div className="contenedorHijoGrid">Test UI 3</div>
         <div className="contenedorHijoGrid">Test UI 4</div>
         <div className="contenedorHijoGrid">Test UI 5</div>
