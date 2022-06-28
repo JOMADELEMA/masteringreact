@@ -7,7 +7,7 @@ const NavBar = () => {
 
  
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top me-auto">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top me-auto">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
             JOMADELEMA
