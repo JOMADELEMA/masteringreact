@@ -8,6 +8,7 @@ import ShieldUI from "../Pages/ShieldUI";
 import NotFoundPage from "../Pages/NotFoundPage";
 import Photography1 from "../Pages/Photography1";
 import GridPage from "../Pages/GridPage";
+import Photography2 from "../Pages/Photography2";
 
 const crearRutas = () => {
   return (
@@ -20,6 +21,7 @@ const crearRutas = () => {
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/shieldui" element={<ShieldUI />} />
           <Route path="/photography1" element={<Photography1 />} />
+          <Route path="/photography2" element={<Photography2 />} />
           <Route path="/grid" element={<GridPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

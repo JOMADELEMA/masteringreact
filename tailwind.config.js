@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'fondo-semuc': "url('../public/images/bg-Semuc.jpg')",
+        'fondo-flower': "url('../public/images/bg-flower.jpg')",
+        'fondo-flower2': "url('../public/images/bg-flower2.jpg')",
       }, 
       gridTemplateRows: {
         //grid para layout

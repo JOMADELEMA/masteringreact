@@ -14,11 +14,14 @@ const PortfolioMenu = () => {
           </div>
         </Link>
         <Link to="/photography1" className="cardLink photos">
-          <div className="contenedorHijoGrid">
+          <div className="contenedorHijoGrid bg-fondo-flower bg-cover text-5xl">
             Photograhy 1
           </div>
         </Link>
-        <div className="contenedorHijoGrid">Test UI 3</div>
+        <Link to="/photography2" className="cardLink photos">
+        <div className="contenedorHijoGrid text-5xl">Photography 2</div>
+        
+        </Link>
         <div className="contenedorHijoGrid">Test UI 4</div>
         <div className="contenedorHijoGrid">Test UI 5</div>
         <div className="contenedorHijoGrid">Test UI 6</div>
