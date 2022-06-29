@@ -98,10 +98,10 @@ const Photography2 = () => {
         </div>
 
         <div>
-          <h1 className="text-3xl text-center my-3 lg:my-5">Titulo</h1>
+          <h1 className="text-3xl lg:text-5xl text-center lg:py-10">Titulo</h1>
         </div>
         <div>
-          <h3 className="text-sm lg:text-lg text-center my-3 lg:my-5">
+          <h3 className="text-sm lg:text-lg text-center lg:py-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
             accusantium obcaecati dolore voluptate dolorum voluptatem excepturi
             mollitia labore modi natus? Lorem ipsum dolor sit amet consectetur
