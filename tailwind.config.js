@@ -9,6 +9,8 @@ module.exports = {
         'fondo-semuc': "url('../public/images/bg-Semuc.jpg')",
         'fondo-flower': "url('../public/images/bg-flower.jpg')",
         'fondo-flower2': "url('../public/images/bg-flower2.jpg')",
+        'fondo-volcan': "url('../public/images/bg-volcan.jpg')",
+        'fondo-antigua': "url('../public/images/bg-antigua.jpg')",
       }, 
       gridTemplateRows: {
         //grid para layout
