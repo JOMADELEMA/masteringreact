@@ -97,11 +97,11 @@ const Photography2 = () => {
           </ul>
         </div>
 
-        <div>
-          <h1 className="text-3xl lg:text-5xl text-center lg:py-10">Titulo</h1>
+        <div className="my-4">
+          <h1 className="text-4xl lg:text-5xl text-center">Titulo</h1>
         </div>
-        <div>
-          <h3 className="text-sm lg:text-lg text-center lg:py-10">
+        <div className="lg:py-6 md:py-4 sm:py-3 mb-4">
+          <h3 className="lg:text-xl md:text-lg sm:text-md text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
             accusantium obcaecati dolore voluptate dolorum voluptatem excepturi
             mollitia labore modi natus? Lorem ipsum dolor sit amet consectetur
@@ -117,22 +117,22 @@ const Photography2 = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 flex-100 max-w-100 px-1"
             >
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic9}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic1}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic6}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic10}
               />
@@ -142,22 +142,22 @@ const Photography2 = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 flex-100 max-w-100 px-1"
             >
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic1}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic2}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic8}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic4}
               />
@@ -167,22 +167,22 @@ const Photography2 = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 flex-100 max-w-100 px-1"
             >
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic5}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic3}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic7}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic8}
               />
@@ -192,22 +192,22 @@ const Photography2 = () => {
               className="lg:flex-25 lg:max-w-25 md:flex-50 md:max-w-50 flex-100 max-w-100 px-1"
             >
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic3}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic2}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic8}
               />
               <img
-                className="mt-2 align-middle w-full rounded-md hover:shadow"
+                className="mt-2 align-middle w-full rounded-md hover:shadow hover:saturate-200"
                 alt="imagen de prueba"
                 src={pic4}
               />
