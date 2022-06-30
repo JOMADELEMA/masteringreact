@@ -17,6 +17,24 @@ import pic12 from "../Assets/ImageGridPictures/12.jpg";
 const Photography3 = () => {
   return (
     <>
+      {/* NavBar */}
+      <div className="md:h-20 h-14 bg-gray-50 flex md:flex-col justify-between lg:hidden">
+        <Menu2 color="red" className="mt-3 cursor-pointer order-1 w-40 border" />
+        <div id="logo" className="flex justify-center self-center order-2">
+          <Camera
+            size={50}
+            color="gray"
+            strokeWidth={0.5}
+            className="hover:grayscale cursor-pointer"
+          />
+        </div>
+        <div id="nombre-artista" className="self-center order-3 w-40 border text-end">
+          <h1 className="text-md font-semibold text-gray-500 pr-8">
+            Nombre Artista
+          </h1>
+        </div>
+      </div>
+
       <div id="contenedor" className="flex">
         {/* Sidebar */}
         <div className=" hidden lg:flex">
@@ -31,6 +49,11 @@ const Photography3 = () => {
                 strokeWidth={0.5}
                 className="hover:grayscale cursor-pointer"
               />
+            </div>
+            <div id="nombre-artista" className="self-center">
+              <h1 className="text-xl font-semibold text-gray-500">
+                Nombre Artista
+              </h1>
             </div>
             <div id="enlaces-principales" className=" mt-10 mx-2">
               <ul>
@@ -66,7 +89,7 @@ const Photography3 = () => {
             id="sidebar-md"
             className="h-screen w-72 flex flex-col shadow-md"
           >
-            <Menu2 color="red" className="self-end mr-5 cursor-pointer"/>
+            <Menu2 color="red" className="self-end mr-5 cursor-pointer" />
             <div id="logo" className="flex justify-center">
               <Camera
                 size={150}
