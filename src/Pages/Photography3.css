@@ -1,0 +1,3 @@
+#collapsedMenu:checked ~ #enlaces-collapsed {
+    display: absolute;
+}
