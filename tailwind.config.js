@@ -27,6 +27,10 @@ module.exports = {
         '75': '75%',
         '100': '100%',
       },
+      screens: {
+        'xs': '480px',
+        'xxs': '320px',
+      },
     },
   },
   plugins: [],

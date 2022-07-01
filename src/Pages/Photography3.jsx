@@ -17,8 +17,8 @@ import pic12 from "../Assets/ImageGridPictures/12.jpg";
 const Photography3 = () => {
   return (
     <>
-      {/* NavBar */}
-      <div className="md:h-20 h-14 bg-gray-50 flex md:flex-col justify-between lg:hidden">
+      {/* NavBar SM*/}
+      <div className="h-14 bg-gray-50 flex justify-between lg:hidden md:hidden overflow-hidden">
         <Menu2 color="red" className="mt-3 cursor-pointer order-1 w-40 border" />
         <div id="logo" className="flex justify-center self-center order-2">
           <Camera
@@ -34,6 +34,28 @@ const Photography3 = () => {
           </h1>
         </div>
       </div>
+      {/*  */}
+
+      {/* NavBar MD */}
+      <div className="md:h-24 bg-gray-50 md:flex md:flex-col justify-center hidden lg:hidden">
+        <Menu2 color="red" className="cursor-pointer absolute" />
+        <div id="logo" className="flex justify-center self-center order-2">
+          <Camera
+            size={50}
+            color="gray"
+            strokeWidth={0.5}
+            className="hover:grayscale cursor-pointer"
+          />
+        </div>
+        <div id="nombre-artista" className="self-center order-2 w-40 text-center">
+          <h1 className="text-md font-semibold text-gray-500 ">
+            Nombre Artista
+          </h1>
+        </div>
+      </div>
+
+
+      {/*  */}
 
       <div id="contenedor" className="flex">
         {/* Sidebar */}
@@ -130,7 +152,7 @@ const Photography3 = () => {
         {/* Grid */}
         <div
           id="contenedor-grid"
-          className="w-full h-screen border overflow-auto bg-green-600"
+          className="w-full h-screen border bg-green-600 overflow-auto"
         >
           <div id="row" className="flex flex-wrap bg-red-200">
             <div
