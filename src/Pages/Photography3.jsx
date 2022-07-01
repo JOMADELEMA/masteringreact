@@ -1,18 +1,18 @@
 import React from "react";
 import { Camera, Menu2 } from "tabler-icons-react";
 
-import pic1 from "../Assets/ImageGridPictures/1.jpg";
-import pic2 from "../Assets/ImageGridPictures/2.jpeg";
-import pic3 from "../Assets/ImageGridPictures/3.jpeg";
-import pic4 from "../Assets/ImageGridPictures/4.jpg";
-import pic5 from "../Assets/ImageGridPictures/5.jpg";
-import pic6 from "../Assets/ImageGridPictures/6.jpg";
-import pic7 from "../Assets/ImageGridPictures/7.jpg";
-import pic8 from "../Assets/ImageGridPictures/8.jpg";
-import pic9 from "../Assets/ImageGridPictures/9.jpg";
-import pic10 from "../Assets/ImageGridPictures/10.jpg";
-import pic11 from "../Assets/ImageGridPictures/11.jpg";
-import pic12 from "../Assets/ImageGridPictures/12.jpg";
+import {
+  pic1,
+  pic2,
+  pic3,
+  pic4,
+  pic5,
+  pic6,
+  pic7,
+  pic8,
+  pic9,
+  pic10,
+} from "../Assets/ImageGridPictures";
 
 const Photography3 = () => {
   return (

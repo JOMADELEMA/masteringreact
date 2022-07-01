@@ -1,16 +1,16 @@
 import React from "react";
-import pic1 from "../Assets/ImageGridPictures/1.jpg";
-import pic2 from "../Assets/ImageGridPictures/2.jpeg";
-import pic3 from "../Assets/ImageGridPictures/3.jpeg";
-import pic4 from "../Assets/ImageGridPictures/4.jpg";
-import pic5 from "../Assets/ImageGridPictures/5.jpg";
-import pic6 from "../Assets/ImageGridPictures/6.jpg";
-import pic7 from "../Assets/ImageGridPictures/7.jpg";
-import pic8 from "../Assets/ImageGridPictures/8.jpg";
-import pic9 from "../Assets/ImageGridPictures/9.jpg";
-import pic10 from "../Assets/ImageGridPictures/10.jpg";
-import pic11 from "../Assets/ImageGridPictures/11.jpg";
-import pic12 from "../Assets/ImageGridPictures/12.jpg";
+import {
+  pic1,
+  pic2,
+  pic3,
+  pic4,
+  pic5,
+  pic6,
+  pic7,
+  pic8,
+  pic9,
+  pic10,
+} from "../Assets/ImageGridPictures";
 
 import "./Photography2.css";
 
@@ -41,11 +41,21 @@ const Photography2 = () => {
 
           <div id="enlaces" className="hidden lg:order-2 lg:inline self-center">
             <ul className="flex justify-between w-96">
-              <li className="cursor-pointer hover:underline hover:underline-offset-2">Home</li>
-              <li className="cursor-pointer hover:underline hover:underline-offset-2">Portraits</li>
-              <li className="cursor-pointer hover:underline hover:underline-offset-2">Landscapes</li>
-              <li className="cursor-pointer hover:underline hover:underline-offset-2">About</li>
-              <li className="cursor-pointer hover:underline hover:underline-offset-2">Contact</li>
+              <li className="cursor-pointer hover:underline hover:underline-offset-2">
+                Home
+              </li>
+              <li className="cursor-pointer hover:underline hover:underline-offset-2">
+                Portraits
+              </li>
+              <li className="cursor-pointer hover:underline hover:underline-offset-2">
+                Landscapes
+              </li>
+              <li className="cursor-pointer hover:underline hover:underline-offset-2">
+                About
+              </li>
+              <li className="cursor-pointer hover:underline hover:underline-offset-2">
+                Contact
+              </li>
             </ul>
           </div>
 
@@ -77,7 +87,10 @@ const Photography2 = () => {
         {/* fin Navbar */}
 
         <input type="checkbox" id="collapsedMenu" className="hidden" />
-        <div id="enlaces-collapsed" className="lg:hidden md:hidden hidden py-2 border-b-gray-400 border-b-2">
+        <div
+          id="enlaces-collapsed"
+          className="lg:hidden md:hidden hidden py-2 border-b-gray-400 border-b-2"
+        >
           <ul className="flex flex-col justify-between">
             <li className="cursor-pointer text-xl font-semibold text-center hover:bg-gray-100">
               Home

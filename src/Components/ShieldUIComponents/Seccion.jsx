@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronLeft } from "tabler-icons-react";
-import ContenidoSeccion from "./ContenidoSeccion";
+import {ContenidoSeccion} from "../ShieldUIComponents";
 
 const Seccion = (props) => {
   const { nombre } = props;
