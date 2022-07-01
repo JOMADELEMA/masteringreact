@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "../Components/NavBar";
 import PortfolioMenu from "../Components/PortfolioMenu";
 
-const Index = () => {
+const IndexPage = () => {
   return (
     <>
       <NavBar />
@@ -14,4 +14,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default IndexPage;

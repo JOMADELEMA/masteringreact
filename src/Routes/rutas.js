@@ -1,23 +1,28 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Index from "../Pages/Index";
-import AboutMe from "../Pages/AboutMe";
-import Contacto from "../Pages/Contacto";
-import Proyectos from "../Pages/Proyectos";
-import ShieldUI from "../Pages/ShieldUI";
-import NotFoundPage from "../Pages/NotFoundPage";
-import Photography1 from "../Pages/Photography1";
-import GridPage from "../Pages/GridPage";
-import Photography2 from "../Pages/Photography2";
-import Photography3 from "../Pages/Photography3";
-import Photography4 from "../Pages/Photography4";
+import App from "../App";
+
+import {
+  IndexPage,
+  AboutMe,
+  Contacto,
+  Proyectos,
+  ShieldUI,
+  NotFoundPage,
+  Photography1,
+  Photography2,
+  Photography3,
+  Photography4,
+  GridPage,
+} from "../Pages";
 
 const crearRutas = () => {
   return (
     <>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Index />} />
+          <Route exact path="/" element={<IndexPage />} />
+          <Route path="/app" element={<App />} />
           <Route path="/aboutus" element={<AboutMe />} />
           <Route path="/contactus" element={<Contacto />} />
           <Route path="/proyectos" element={<Proyectos />} />

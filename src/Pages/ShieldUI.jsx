@@ -1,8 +1,8 @@
 import React from "react";
 import "./ShieldUI.css";
-import Seccion from "../Components/ShieldUIComponents/Seccion.jsx";
-import ContenedorIconos from "../Components/ShieldUIComponents/ContenedorIconos.jsx";
 
+import {Seccion, ContenedorIconos} from '../Components/ShieldUIComponents';
+// 
 const ShieldUI = () => {
   return (
     <>

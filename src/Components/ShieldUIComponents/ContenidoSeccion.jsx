@@ -1,15 +1,7 @@
 import React from "react";
 import "./ContenidoSeccion.css";
-import Pokedex from "./Secciones/Pokedex";
-import Pokemon from "./Secciones/Pokemon";
-import Bag from "./Secciones/Bag";
-import LeagueCard from "./Secciones/LeagueCard";
-import Save from "./Secciones/Save";
-import TownMap from "./Secciones/TownMap";
-import PokemonCamp from "./Secciones/PokemonCamp";
-import MysteryGift from "./Secciones/MysteryGift";
-import VS from "./Secciones/VS";
-import Options from "./Secciones/Options";
+
+import {Pokedex, Pokemon, Bag, LeagueCard, Save, TownMap, PokemonCamp, MysteryGift, VS, Options} from '../ShieldUIComponents';
 
 
 
