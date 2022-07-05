@@ -171,7 +171,7 @@ const Bag = () => {
           </div>
         </div>
         <div className="contenedorBag">
-          <div className="bagCategories">
+          <div className="bagCategories flex">
             <CaretLeft className="bagCategoryIcon" strokeWidth={1.5} size={40} />
             <MedicineSyrup className="bagCategoryIcon" strokeWidth={1.5} size={35} />
             <Pokeball className="bagCategoryIcon" strokeWidth={1.5} size={35} />

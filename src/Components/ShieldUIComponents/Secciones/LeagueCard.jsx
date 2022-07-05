@@ -21,7 +21,7 @@ const LeagueCard = () => {
           <div className="cardNumber">
             <span>8</span>
           </div>
-          <div className="cardStars">
+          <div className="cardStars flex">
             <Star size={25} />
             <Star size={25} />
             <Star size={25} />

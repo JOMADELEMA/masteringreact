@@ -15,7 +15,7 @@ const Save = () => {
         <div className='medalla'></div>
       </div>
       <div className="contenedorInfoSave">
-        <div className="contenedorParty">
+        <div className="contenedorParty flex">
           <img src={metapod} alt="" />
           <img src={charizard} alt="" />
           <img src={venusaur} alt="" />
